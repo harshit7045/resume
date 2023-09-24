@@ -1,0 +1,103 @@
+body {
+    margin: 0px;
+}
+
+/* Body Header */
+
+#body-header {
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Horizontal Lists */
+
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+}
+
+
+.horizontal-list li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.horizontal-list li a:hover {
+    color: lightgrey;
+    border-bottom: 1px solid white;
+}
+
+.text-center {
+    text-align: center;
+}
+#name{
+    margin-top: 17vh;
+    font-weight: 700;
+    color: aliceblue;
+}
+.social {
+    display: inline-block;
+    margin: 1px;
+    
+    
+   
+    
+}
+.soc{
+    text-align: center;
+}
+.social img {
+    height: 3vh;
+    width: 3vw;
+    
+}
+
+.social img:hover{
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, .4);
+}
+.social img{
+     
+    padding: 10px;
+}
+main{
+    text-align: center;
+    background-color:#F5F5F5;
+}
+#dp{
+    
+    margin-top: -20vh;
+    
+    border-radius: 50%;
+     position: relative;
+     height: 12rem;
+     width: 12rem;
+     border-style: solid;
+     border-color: aliceblue;
+}
+#my-intro{
+    text-align:justify;
+    padding-top: 5vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    height: auto;
+
+
+}
+body{
+    margin: 0px;
+}
+#skill-heading{
+    color: aqua;
+    font-weight: 700;
+}
